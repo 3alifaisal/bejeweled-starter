@@ -91,7 +91,7 @@ class Screen {
     if (!Screen.initialized) return;
 
     if (char.length !== 1) {
-      throw new Error("invalid grid character");
+      // throw new Error("invalid grid character");
     }
     Screen.grid[row][col] = char;
   }
